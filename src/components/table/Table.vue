@@ -128,6 +128,7 @@
                         @change="pageChanged">
                     </b-pagination>
                 </div>
+                <slot v-else name="level-right"></slot>
             </div>
         </div>
     </div>
